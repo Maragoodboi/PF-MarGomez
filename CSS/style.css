@@ -1,0 +1,90 @@
+* {margin: 0;
+padding: 0%;}
+
+
+main {
+  background-image: url(https://images3.alphacoders.com/109/1095798.jpg);
+  background-position: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;}
+    
+  
+.snd-section {
+  background-image: url(https://images.alphacoders.com/856/85671.jpg);
+  
+  background-position: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;}
+
+
+
+  /* HEADER */
+
+header {
+  background-color: rgb(12, 31, 64);
+}
+  
+ /* FOOTER */
+
+ footer {
+    background-color: #222222;
+ }
+  .bi {
+    color: yellow;
+  }
+
+  .bi-facebook, .bi-twitter, .bi-instagram {
+    color: #bb66bb;
+  }
+
+  /* EXPEDICIONES */
+
+.main-con {
+    background-image: linear-gradient(#222222,#223355);
+}
+
+  .main-exp, .main-gal, .main-nos {
+    background-image: linear-gradient(#222222,
+    #223355,
+    #665555,
+    #553344,
+    #aa88aa);
+  }
+
+  .fb-section {
+    background-image: linear-gradient(#222222,#223355);
+  }
+
+  .img-bg-i {
+    opacity: 0.6;
+  }
+
+
+
+  .feedback1 {
+    padding-top: 5%;
+  }
+
+  .parrafo-fb {
+    padding: 3%;
+    border-style: double;
+    border-radius: 2%;
+  }
+  .parrafo-fb-carmen {
+    margin-bottom: 0%;
+    padding: 2%;
+  }
+
+  .container-star {
+    padding-bottom: 2%;
+  }
+
+  
