@@ -1,5 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-/* INDEX */
+.airplane-icon {
+  width: 50px;
+}
+
+.camera-icon {
+  width: 50px;
+}
+
+.envelope-icon {
+  margin-top: 5%;
+  width: 50px;
+}
 
 main {
   --opacidad-negro: 0.4;
@@ -12,80 +27,43 @@ main {
   background-size: cover;
   background-attachment: fixed;
   color: antiquewhite;
-  font-family: 'Montserrat', sans-serif;
-  }
-
-.nav-link {
-  opacity: 0.7;
+  font-family: font-family "Montserrat", sans-serif;
 }
 
-.main-container {
+body {
+  background-color: rgb(169, 169, 180);
+}
+body .main-container {
   padding-top: 10%;
   padding-bottom: 10%;
 }
-   
+body .main-container div h1 {
+  font-weight: 400;
+}
+body .main-container div h2, body .main-container h3 {
+  font-weight: 300;
+}
+body .main-container .btn {
+  margin-top: 3%;
+}
+
 .snd-section {
   background-color: rgb(153, 153, 179);
-  color: rgb(0, 0, 0);
-  font-family: 'Montserrat', sans-serif;
 }
-
-.fb-section {
-  padding-top: 10%;
-  padding-bottom: 3%;
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(153, 153, 179);
+.snd-section div div h1 {
+  margin-top: 2%;
+  font-weight: 400;
 }
-
-.card {
-  filter: brightness(0.8);
-  color: rgb(0, 0, 0);
-  margin: 1%;
-}
-
-.container-star {
-    padding-bottom: 2%;
-  }
-
-.feedback1 {
-    padding-top: 5%;
-  }
-
-.p-fb-section {
-  color: rgb(0, 0, 0);
-  font-family: 'Montserrat', sans-serif;
+.snd-section p {
   font-weight: 300;
 }
 
-.parrafo-fb-carmen {
-    margin-bottom: 0%;
-    padding: 2%;
-  }
-
-.bi-envelope-paper-heart-fill {
-  width: 70px;
+.card {
+  margin: 2%;
 }
 
-.bi-star-fill {
-    color: rgb(255, 208, 0);
-  }
-.bi-camera-fill{
-  width: 40px;
+.btn-main:hover {
+  color: aqua;
 }
 
-.bi-airplane-engines-fill {
-  width: 40px;
-  margin-bottom: 2%;
-  filter: opacity(0.9);
-}
-
-
-
- /* EXPEDICIONES */
-
-
- /* FOOTER */
-
-.bi-facebook, .bi-twitter, .bi-instagram {
-    color: #bb66bb;
-  }
+/*# sourceMappingURL=style.css.map */

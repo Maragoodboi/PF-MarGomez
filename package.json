@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Maragoodboi/PreEntrega3-Gomez/issues"
   },
-  "homepage": "https://github.com/Maragoodboi/PreEntrega3-Gomez#readme"
+  "homepage": "https://github.com/Maragoodboi/PreEntrega3-Gomez#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
