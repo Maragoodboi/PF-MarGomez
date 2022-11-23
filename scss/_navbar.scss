@@ -1,0 +1,28 @@
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+   
+      
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(250, 235, 215, 0.815);
+        transform-origin: bottom left;
+        transition: transform 0.15s ease-out;
+      }
+      
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      } 
+}
+
+.nav-item {
+   margin-left: 2%;
+}

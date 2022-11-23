@@ -3,6 +3,39 @@
   padding: 0;
 }
 
+.nos-body, .exp-body {
+  background-image: linear-gradient(rgba(20, 20, 85, 0.87), rgb(169, 169, 180));
+}
+
+.main-nos, .main-exp {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(250, 235, 215, 0.815);
+  transform-origin: bottom left;
+  transition: transform 0.15s ease-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-item {
+  margin-left: 2%;
+}
+
 .airplane-icon {
   width: 50px;
 }
@@ -16,7 +49,7 @@
   width: 50px;
 }
 
-main {
+.main-section {
   --opacidad-negro: 0.4;
   background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://images3.alphacoders.com/109/1095798.jpg);
   background-position: center;
@@ -27,11 +60,12 @@ main {
   background-size: cover;
   background-attachment: fixed;
   color: antiquewhite;
-  font-family: font-family "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: rgb(169, 169, 180);
+  background-image: linear-gradient(rgba(20, 20, 85, 0.87), rgb(169, 169, 180));
+  background-attachment: fixed;
 }
 body .main-container {
   padding-top: 10%;
@@ -49,6 +83,10 @@ body .main-container .btn {
 
 .snd-section {
   background-color: rgb(153, 153, 179);
+  font-family: "Montserrat", sans-serif;
+}
+.snd-section div {
+  margin-top: 2%;
 }
 .snd-section div div h1 {
   margin-top: 2%;
@@ -57,13 +95,133 @@ body .main-container .btn {
 .snd-section p {
   font-weight: 300;
 }
-
-.card {
-  margin: 2%;
+.snd-section div div h2 {
+  font-family: "Montserrat", sans-serif;
 }
 
-.btn-main:hover {
-  color: aqua;
+.card-index {
+  margin: 2%;
+  filter: opacity(0.7);
+  border-radius: 15px;
+}
+
+.card-exp {
+  margin: 2%;
+  filter: opacity(0.95);
+  border-radius: 15px;
+}
+
+.section-feedback-nos {
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+}
+.section-feedback-nos .feedback1 {
+  margin-top: 15%;
+  color: antiquewhite;
+}
+.section-feedback-nos .feedback8 {
+  margin-bottom: 5%;
+}
+
+.parrafo-nos {
+  background-color: rgba(153, 153, 179, 0.9);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.main__title-n {
+  font-weight: 500;
+  font-size: 50px;
+  margin: 3%;
+  margin-bottom: 5%;
+  color: antiquewhite;
+}
+
+.btn-main {
+  transition: all 0.8s;
+  position: relative;
+  font-weight: 300;
+}
+.btn-main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s;
+}
+.btn-main:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.btn-main:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
+}
+.btn-main:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.href-snd-section {
+  position: relative;
+  text-decoration: none;
+}
+.href-snd-section:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #212529;
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+.href-snd-section:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.btn-snd-section {
+  border-style: solid;
+  border-radius: 0;
+  border-color: rgb(104, 102, 102);
+  text-decoration: none;
+  color: #212529;
+}
+.btn-snd-section:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+  text-decoration: #212529;
+  font-weight: 500;
+}
+
+.btn-card {
+  border-style: solid;
+  border-radius: 0;
+  border-color: rgb(104, 102, 102);
+  text-decoration: none;
+  color: #212529;
+}
+.btn-card:hover {
+  transform: scale(1.2) rotate(15deg);
+  transition: 0.2s;
+  text-decoration: #212529;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
