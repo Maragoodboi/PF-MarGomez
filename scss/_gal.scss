@@ -1,0 +1,13 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    --opacidad-negro: 0.1;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro)))
+
+    
+
+}
+
+.carousel-item {
+    margin: 5%;
+}

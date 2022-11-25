@@ -1,0 +1,20 @@
+.main__title-n {
+    
+        animation: moveToLeft 2s ease-in-out;
+        animation-delay: 1000ms;
+        
+        
+      
+  
+      @keyframes moveToLeft {
+        0% {
+          transform: translateX(300px);
+          filter: opacity(0);
+        }
+        100% {
+          transform: translateX(0px);
+          filter: opacity(1);
+          
+        }
+      }
+}

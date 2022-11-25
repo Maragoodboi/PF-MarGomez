@@ -1,0 +1,23 @@
+.con-body {
+    --opacidad-negro: 0.6;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://images.pexels.com/photos/3889991/pexels-photo-3889991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+
+    .p-contact {
+        font-size: 30px;
+        margin-top: 3%;
+        text-align: center;
+    }
+}
+
+
+
+.contact-form {
+    padding: 3%;
+}

@@ -1,28 +1,56 @@
 .section-feedback-nos {
     font-family: "Montserrat", sans-serif;
     color: antiquewhite;
+    margin: 0 2% 0 2%;
+    margin-top: 10%;
 
     .feedback1 {
-    margin-top: 15%;
     color: antiquewhite;
     }
     .feedback8 {
         margin-bottom: 5%;
     
     }
+    .feedback {
+        background-color:rgba(153, 153, 179, 0.555) ;
+    }
 
 }
 
 .parrafo-nos {
-   background-color:rgba(153, 153, 179, 0.9);
+   background-color:rgba(181, 181, 196, 0.925);
    padding: 2%;
    border-radius: 10px;
 }
 
 .main__title-n {
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 70px;
     margin: 3%;
     margin-bottom: 5%;
+    color: rgba(250, 235, 215, 0.945);
+    font-family: 'Caveat', cursive;
+}
+
+.exp-latitravel {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 17%;
+    margin: 0 2% 5% 2%;
+    border-radius: 6px;
+    color: rgba(240, 255, 255, 0.877);
+    --opacidad-negro: 0.4;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(https://images.pexels.com/photos/3889991/pexels-photo-3889991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
     color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+
+    a {
+        text-decoration: none;
+        color: rgba(240, 255, 255, 0.877)
+    }
 }
